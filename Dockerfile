@@ -13,7 +13,7 @@ RUN apt-get update && \
 WORKDIR /app
 
 # Clone repo (replace with your actual repo)
-RUN git clone https://github.com/𝑰𝑺𝑯𝑨𝑸-𝐌𝐃/DJ /app && \
+RUN git clone https://github.com/katala07709-hub/ISHAQ_MD.git /app && \
     chown -R node:node /app
 
 # Switch to non-root user for security
